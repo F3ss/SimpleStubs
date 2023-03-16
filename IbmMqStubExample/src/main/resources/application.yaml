@@ -1,0 +1,14 @@
+spring:
+  jms:
+    pub-sub-domain: true
+    listener:
+      concurrency: 1
+    connection-factory:
+      type: com.ibm.mq.jms.MQConnectionFactory
+      username: passw0rd
+      password: passw0rd
+      host: localhost
+      port: 1414
+      queue-manager: QM1
+      channel: DEV.APP.SVRCONN
+      transport-type: CLIENT
