@@ -1,3 +1,7 @@
-spring:
-  kafka:
-    bootstrap-servers: localhost:9092
+kafka:
+  bootstrap-servers: localhost:9092
+  group-id: default
+  topic1_in: TEST1.IN
+  topic1_out: TEST1.OUT
+  topic2_in: TEST2.IN
+  topic2_out: TEST2.OUT
